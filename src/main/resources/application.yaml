@@ -1,3 +1,10 @@
 spring:
   application:
     name: mortgage-svc
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.ing.mortgage: DEBUG
