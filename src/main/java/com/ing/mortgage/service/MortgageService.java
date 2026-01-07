@@ -13,10 +13,9 @@ import java.util.ArrayList;
 
 @Service
 public class MortgageService {
-
+    private static final Logger log = LoggerFactory.getLogger(MortgageService.class);
     private final MortgageRateRepository mortgageRateRepository;
 
-    private static final Logger log = LoggerFactory.getLogger(MortgageService.class);
 
     // ideally this should come from configuration
     // hardcoded here for simplicity
