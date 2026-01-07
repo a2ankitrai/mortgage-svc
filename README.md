@@ -82,7 +82,7 @@ The application will start on http://localhost:8080
 ./gradlew test
 ```
 
-### Swagger UI
+## Swagger UI
 To ease API testing, Swagger UI is also implemented.
 Once the application is running, you can access the Swagger UI for API documentation and testing at:
 http://localhost:8080/swagger-ui.html
