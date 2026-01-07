@@ -1,6 +1,6 @@
 package com.ing.mortgage.repository;
 
-import com.ing.mortgage.domain.MortgageInterestRate;
+import com.ing.mortgage.dto.MortgageInterestRate;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

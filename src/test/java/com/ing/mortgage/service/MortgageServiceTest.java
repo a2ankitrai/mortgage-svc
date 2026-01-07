@@ -1,6 +1,6 @@
 package com.ing.mortgage.service;
 
-import com.ing.mortgage.domain.MortgageInterestRate;
+import com.ing.mortgage.dto.MortgageInterestRate;
 import com.ing.mortgage.dto.MortgageCheckRequest;
 import com.ing.mortgage.repository.MortgageRateRepository;
 import org.junit.jupiter.api.Test;
